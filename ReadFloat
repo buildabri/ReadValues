@@ -2,11 +2,11 @@
 
 int main(void) {
 
-	float x = 1.0;
+	int x = 1;
 
-	scanf("%f", &x);
+	scanf("%d", &x);
 
-	printf("You entered %.1f\n", x);
+	printf("You entered %d\n", x);
 
 	return 0;
 }
